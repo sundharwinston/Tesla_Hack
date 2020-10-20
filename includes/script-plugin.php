@@ -6,9 +6,3 @@
 
 <script src="<?php echo ABS_URL; ?>includes/validator/js/bootstrapValidator.js"></script>
 
-<script src="<?php echo ABS_URL; ?>includes/intl-tel-input/js/intlTelInput.js"></script>
-
-<script src="<?php echo ABS_URL; ?>js/popper.js"></script>
-
-
-
