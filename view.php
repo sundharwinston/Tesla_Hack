@@ -17,6 +17,11 @@ return [
         resource_path('views'),
     ],
 
+     'paths1' => [
+        resource_path('public'),
+    ],
+
+
     /*
     |--------------------------------------------------------------------------
     | Compiled View Path
