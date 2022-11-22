@@ -21,3 +21,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('countries', [App\Http\Controllers\Api\MasterCountroller::class, 'CountryList']);
 Route::get('news-paper/{id?}', [App\Http\Controllers\Api\MasterCountroller::class, 'NewsPaperList']);
 Route::get('news-youtube/{id?}', [App\Http\Controllers\Api\MasterCountroller::class, 'NewsYoutubeList']);
+// First commit
