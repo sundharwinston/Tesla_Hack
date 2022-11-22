@@ -22,4 +22,3 @@ Route::get('countries', [App\Http\Controllers\Api\MasterCountroller::class, 'Cou
 Route::get('news-paper/{id?}', [App\Http\Controllers\Api\MasterCountroller::class, 'NewsPaperList']);
 Route::get('news-youtube/{id?}', [App\Http\Controllers\Api\MasterCountroller::class, 'NewsYoutubeList']);
 // First commit
-// Second Commit
